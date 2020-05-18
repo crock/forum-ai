@@ -27,7 +27,7 @@ const IndexPage = () => {
       </nav>
       <article>
         <h3>What's with the name?</h3>
-        <p>The name "Yoix" doesn't have any meaning aside from an <a href="https://en.wikipedia.org/wiki/Yoix">abandoned programming language</a> created by AT&T in the 90s. I happened to have th domain name lying around and decided to put it to good use.</p>
+        <p>The name "Yoix" doesn't have any meaning aside from an <a href="https://en.wikipedia.org/wiki/Yoix">abandoned programming language</a> created by AT&T in the 90s. I happened to have the domain name lying around and decided to put it to good use.</p>
       </article>
       <TechStack />
     </Layout>
