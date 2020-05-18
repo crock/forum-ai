@@ -3,3 +3,8 @@
 
 __pycache__
 venv
+
+#Editor Configurations
+.vscode
+.atom
+.idea

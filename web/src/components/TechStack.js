@@ -11,7 +11,7 @@ const TechStack = () => {
                 <li><a href="https://spacy.io/">spaCy</a></li>
                 <li><a href="https://www.mongodb.com/">MongoDB</a></li>
                 <li><a href="https://www.gatsbyjs.org/">Gatsby.js</a></li>
-                <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+                <li><a href="https://netlify.com">Netlify</a></li>
                 <li><a href="https://newcss.net/">New.css</a></li>
             </ul>
         </section>
