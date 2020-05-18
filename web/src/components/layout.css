@@ -1,0 +1,14 @@
+@import url(https://newcss.net/lite.css);
+
+a {
+  color: #773c99;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ad55e0;
+}
+
+nav > a {
+  margin-right: 15px;
+}
