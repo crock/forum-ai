@@ -1,0 +1,6 @@
+# Useless macOS File
+.DS_Store
+
+__pycache__
+venv/app/bin
+venv/app/lib
