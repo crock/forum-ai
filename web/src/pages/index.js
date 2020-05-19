@@ -26,11 +26,13 @@ const IndexPage = () => {
         <a href="https://twitter.com/crocdomains">Twitter</a>
       </nav>
       <h2>FAQ</h2>
-      <Accordian title="What's with the name?">
+      <details>
+        <summary>What's with the name?</summary>
         <p>The name "Yoix" doesn't have any meaning aside from an <a href="https://en.wikipedia.org/wiki/Yoix">abandoned programming language</a> created by AT&T in the 90s. I happened to have the domain name lying around and decided to put it to good use.</p>
-      </Accordian>
-      <Accordian title="What tech are you using?">
-          <ul>
+      </details>
+      <details>
+        <summary>What tech are you using?</summary>
+        <ul>
               <li><a href="https://python.org/">Python 3</a></li>
               <li><a href="https://scrapy.org/">Scrapy</a></li>
               <li><a href="https://spacy.io/">spaCy</a></li>
@@ -39,7 +41,7 @@ const IndexPage = () => {
               <li><a href="https://netlify.com">Netlify</a></li>
               <li><a href="https://newcss.net/">New.css</a></li>
           </ul>
-      </Accordian>
+      </details>
     </Layout>
   )
 }
