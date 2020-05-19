@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Yoix`,
-    description: `Yoix is a new open-source project to analyze the wealth of data found on web forums using machine learning.`,
+    title: `ForumAI`,
+    description: `ForumAI is a new open-source project to analyze the wealth of data found on web forums using machine learning.`,
     author: `@crocdomains`,
   },
   plugins: [

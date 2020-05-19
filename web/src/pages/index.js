@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Accordian from '../components/Accordian'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -18,18 +17,14 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Yoix.com" />
+      <SEO title="Forum AI Coming Soon" />
       <h1>Web Forum Analysis</h1>
       <p>{data.site.siteMetadata.description}</p>
       <nav>
-        <a href="https://github.com/crock/yoix">GitHub</a>
+        <a href="https://github.com/crock/forum-ai">GitHub</a>
         <a href="https://twitter.com/crocdomains">Twitter</a>
       </nav>
-      <h2>FAQ</h2>
-      <details>
-        <summary>What's with the name?</summary>
-        <p>The name "Yoix" doesn't have any meaning aside from an <a href="https://en.wikipedia.org/wiki/Yoix">abandoned programming language</a> created by AT&T in the 90s. I happened to have the domain name lying around and decided to put it to good use.</p>
-      </details>
+      <h2 style={{marginBottom: 15}}>FAQ</h2>
       <details>
         <summary>What tech are you using?</summary>
         <ul>
